@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/veralkohol_mero/static/css/main.70ece4d5.css",
+    "main.js": "/veralkohol_mero/static/js/main.929ee88d.js",
+    "index.html": "/veralkohol_mero/index.html",
+    "main.70ece4d5.css.map": "/veralkohol_mero/static/css/main.70ece4d5.css.map",
+    "main.929ee88d.js.map": "/veralkohol_mero/static/js/main.929ee88d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ece4d5.css",
+    "static/js/main.929ee88d.js"
+  ]
+}
