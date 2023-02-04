@@ -45,7 +45,6 @@ class App extends React.Component {
     render() {
 
         return (<div className="page">
-<<<<<<< HEAD
                 <div className="container-fluid bg-dark text-light position-absolute info-box p-5 d-none"
                      id="info-box">
                     <h2 className="text-center h1">Tájékoztató</h2>
@@ -93,9 +92,6 @@ class App extends React.Component {
 
                 </div>
                 <div className="content" id="content">
-=======
-                               <div className="content" id="content">
->>>>>>> 2bf2b2f31a496dcebf1247fdc66c77d150830fcc
 
                     <div className="header w-100 bg-white position-relative">
                         <div className="header-text-box w-100  ">
@@ -110,15 +106,9 @@ class App extends React.Component {
                         <p className="text-dark"><a className="link-dark"
                                                      href="https://www.youtube.com/watch?v=V2E8mIFKMl8&ab_channel=kriszpy">
                             <FontAwesomeIcon icon={'flag-checkered'}/> {">>"}Kibaszott
-<<<<<<< HEAD
                             mérés!{"<<"} <FontAwesomeIcon icon={'flag-checkered'}/></a><br/><span>Ennyiszer rúgtunk be, amég a program elkészült: 11.5</span><span
                             onClick={this.revealInfoBox} className="info-link">{">>"}Információk{"<<"}</span></p>
                         <img src="https://halapidavid.github.io/veralkoholszint/static/media/Yor.b7c09615cd3a9d77a60e.png" id="yor" alt="Yor" title="Yor"/>
-=======
-                            mérés!{"<<"} <FontAwesomeIcon icon={'flag-checkered'}/></a><br/><span>Ennyiszer rúgtunk be, amég a program elkészült: 7.5</span><span
-                            onClick={this.revealInfoBox} className="info-link">{">>"}Információk{"<<"}</span></p>
-                        <img src={Yor} id="yor" alt="Yor by Touyarokii" title="Yor by Touyarokii"/>
->>>>>>> 2bf2b2f31a496dcebf1247fdc66c77d150830fcc
                     </div>
 
                     <UserData.Provider value={this.state}>
@@ -140,7 +130,7 @@ class App extends React.Component {
 
 
                 </div>
-                <div id="footer" className="container-fluid bg-dark text-light"><span>Készítette: Halápi Dávid.</span> <span className="ms-5"> Yort készítette: <a className="link-light ps-2" href="https://www.instagram.com/touyarokii/">@Touyarokii</a> </span></div>{/*<a className="link-light ps-2" href="http://halapidavid.hu"><FontAwesomeIcon icon={'globe'}/> halapidavid.hu</a>  <span className="ps-4">  E-mail: <a className="link-light"  href="mailto:info@halapidavid.hu"><FontAwesomeIcon icon={'envelope'}/> info@halapidavid.hu</a></span></div> */}
+            {/* <div id="footer" className="container-fluid bg-dark text-light">Készítette: Halápi Dávid. <a className="link-light ps-2" href="http://halapidavid.hu"><FontAwesomeIcon icon={'globe'}/> halapidavid.hu</a>  <span className="ps-4">  E-mail: <a className="link-light"  href="mailto:info@halapidavid.hu"><FontAwesomeIcon icon={'envelope'}/> info@halapidavid.hu</a></span></div> */}
 
 
         </div>
